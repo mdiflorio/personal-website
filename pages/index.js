@@ -20,19 +20,39 @@ export default class Home extends React.Component {
                 <div className="halfContainer">
                     <FadeInWhenVisible>
                         <h3 className="description">
-                            I love writing code in JavaScript and Python.
-                            Everything from React to Vue JS for the frontend.
-                            Django and NodeJS for the backend. Mobile
-                            applications with React Native.
+                            I love writing code in{" "}
+                            <span className="colored-text">JavaScript</span> and{" "}
+                            <span className="colored-text">Python</span>.{" "}
+                            Everything from{" "}
+                            <span className="colored-text">React</span> to{" "}
+                            <span className="colored-text">Vue JS</span> on the
+                            frontend.{" "}
+                            <span className="colored-text">Django</span> and{" "}
+                            <span className="colored-text">Node.js</span> for
+                            the backend. Mobile applications with{" "}
+                            <span className="colored-text">React Native</span>.
                         </h3>
                     </FadeInWhenVisible>
                 </div>
                 <div className="halfContainer">
                     <FadeInWhenVisible>
                         <h1 className="content-title">Skills</h1>
-                        <h3 className="description">React, VueJS, jQuery.</h3>
-                        <h3 className="description">NodeJs, Django</h3>
-                        <h3 className="description">MySQL, MongoDB</h3>
+                        <p className="description">
+                            <span className="colored-text">Backend: </span>
+                            Node.js, Express.js, Django
+                        </p>
+                        <p className="description">
+                            <span className="colored-text">Frontend: </span>
+                            React, Redux, VueJS, jQuery
+                        </p>
+                        <p className="description">
+                            <span className="colored-text">Databases: </span>
+                            MySQL, MongoDB
+                        </p>
+                        <p className="description">
+                            <span className="colored-text">Languages: </span>
+                            JavaScript, Python, PHP
+                        </p>
                     </FadeInWhenVisible>
                 </div>
 
@@ -116,6 +136,10 @@ export default class Home extends React.Component {
                         line-height: 1.5;
                         text-align: left;
                     }
+
+                    .colored-text {
+                        color: #40bad5;
+                    }
                 `}</style>
 
                 <style jsx global>{`
@@ -126,6 +150,7 @@ export default class Home extends React.Component {
                         font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
                             Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
                             Droid Sans, Helvetica Neue, sans-serif;
+                        font-weight: 100;
                         background-color: #001724;
                         color: #f5f5f5;
                     }
