@@ -50,7 +50,7 @@ export default class Home extends React.Component {
                             MySQL, MongoDB
                         </p>
                         <p className="description">
-                            <span className="colored-text">Languages: </span>
+                            <span className="colored-text">DevOps: </span>
                             JavaScript, Python, PHP
                         </p>
                     </FadeInWhenVisible>
@@ -58,107 +58,42 @@ export default class Home extends React.Component {
 
                 <div className="halfContainer">
                     <FadeInWhenVisible>
-                        <h1 className="content-title">Experience</h1>
-                        <h3 className="description">React, VueJS, jQuery.</h3>
-                        <h3 className="description">NodeJs, Django</h3>
-                        <h3 className="description">MySQL, MongoDB</h3>
+                        <h1 className="content-title">Professional Projects</h1>
+                        <p className="description">
+                            <Link href="/projects/disaster-recovery-scheduler">
+                                Disaster Recovery Scheduler
+                            </Link>{" "}
+                            - Vue.js, Django
+                        </p>
+                        <p className="description">
+                            <Link
+                                href="/projects/monitoring-system"
+                                className="colored-text"
+                            >
+                                Monitoring System
+                            </Link>{" "}
+                            - Vue.js, Django, Node.js
+                        </p>
+                        <p className="description">
+                            <Link
+                                href="/projects/erp-invoice-importer"
+                                className="colored-text"
+                            >
+                                ERP Invoice Importer
+                            </Link>{" "}
+                            - PHP
+                        </p>
+                        <p className="description">
+                            <Link
+                                href="/projects/uconnected-voip-app"
+                                className="colored-text"
+                            >
+                                uConnected VoIP application
+                            </Link>{" "}
+                            - React Native, IOS, Android.
+                        </p>
                     </FadeInWhenVisible>
                 </div>
-                <style jsx>{`
-                    .page {
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                    }
-
-                    .halfContainer,
-                    .container {
-                        min-height: 100vh;
-                        padding: 5rem;
-                        display: flex;
-                        flex-direction: column;
-                        width: 100%;
-                    }
-
-                    .container {
-                        justify-content: center;
-                        align-items: center;
-                    }
-
-                    .halfContainer {
-                        min-height: 80vh;
-                    }
-
-                    footer {
-                        width: 100%;
-                        height: 100px;
-                        border-top: 1px solid #eaeaea;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-
-                    footer img {
-                        margin-left: 0.5rem;
-                    }
-
-                    footer a {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-
-                    a {
-                        color: inherit;
-                        text-decoration: none;
-                    }
-
-                    .content-title,
-                    .title {
-                        margin: 0;
-                        line-height: 1.15;
-                        font-size: 4rem;
-                        text-align: left;
-                    }
-
-                    .subTitle,
-                    .description {
-                        font-size: 2rem;
-                    }
-
-                    .title,
-                    .subTitle {
-                        text-align: center;
-                    }
-
-                    .description {
-                        line-height: 1.5;
-                        text-align: left;
-                    }
-
-                    .colored-text {
-                        color: #40bad5;
-                    }
-                `}</style>
-
-                <style jsx global>{`
-                    html,
-                    body {
-                        padding: 0;
-                        margin: 0;
-                        font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
-                            Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-                            Droid Sans, Helvetica Neue, sans-serif;
-                        font-weight: 100;
-                        background-color: #001724;
-                        color: #f5f5f5;
-                    }
-
-                    * {
-                        box-sizing: border-box;
-                    }
-                `}</style>
             </div>
         );
     }

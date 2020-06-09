@@ -1,0 +1,93 @@
+$ig-blue: #40bad5;
+$light-blue: #82e8ff;
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.page {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-page {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.halfContainer,
+.project-container,
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.halfContainer {
+    min-height: 80vh;
+}
+
+a {
+    color: $ig-blue;
+    text-decoration: none;
+
+    &:hover {
+        color: $light-blue;
+    }
+}
+
+.content-title,
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3.5rem;
+    text-align: left;
+}
+
+.subTitle,
+.description {
+    font-size: 2rem;
+}
+
+.title,
+.subTitle {
+    text-align: center;
+}
+
+.description {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.colored-text {
+    color: $ig-blue;
+}
+
+.margin-vertical {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 100;
+    background-color: #001724;
+    color: #f5f5f5;
+}
+
+* {
+    box-sizing: border-box;
+}

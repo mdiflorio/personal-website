@@ -12,6 +12,8 @@
         "next-fonts": "^1.1.0",
         "react": "16.13.1",
         "react-dom": "16.13.1",
-        "react-visibility-sensor": "^5.1.1"
+        "react-image-gallery": "^1.0.7",
+        "react-visibility-sensor": "^5.1.1",
+        "sass": "^1.26.8"
     }
 }
