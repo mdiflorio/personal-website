@@ -2,6 +2,7 @@ import Link from "next/link";
 import Router from "next/router";
 
 import ImageGallery from "react-image-gallery";
+import BackButton from "../../components/BackButton";
 
 const images = [
     {
@@ -21,11 +22,7 @@ const images = [
 export default function UconnectedVoipApp() {
     return (
         <>
-            <h2>
-                <a style={{ cursor: "pointer" }} onClick={() => Router.back()}>
-                    Back to home
-                </a>
-            </h2>
+            <BackButton />
             <div className="project-page">
                 <div className="project-container">
                     <h1 className="content-title">
