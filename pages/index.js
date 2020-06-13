@@ -43,7 +43,7 @@ export default class Home extends React.Component {
                         </p>
                         <p className="description">
                             <span className="colored-text">Frontend: </span>
-                            React, Redux, VueJS, jQuery
+                            React, Vue.js, jQuery
                         </p>
                         <p className="description">
                             <span className="colored-text">Databases: </span>
@@ -51,7 +51,7 @@ export default class Home extends React.Component {
                         </p>
                         <p className="description">
                             <span className="colored-text">DevOps: </span>
-                            JavaScript, Python, PHP
+                            Docker, Ansible, Gitlab CI
                         </p>
                     </FadeInWhenVisible>
                 </div>
