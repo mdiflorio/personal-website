@@ -4,7 +4,7 @@ export default function BackButton({ Component, pageProps }) {
     return (
         <h2>
             <a
-                style={{ cursor: "pointer", margin: "20px" }}
+                style={{ cursor: "pointer", margin: "40px" }}
                 onClick={() => Router.back()}
             >
                 Back

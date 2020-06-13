@@ -61,37 +61,36 @@ export default class Home extends React.Component {
                         <h1 className="content-title">Professional Projects</h1>
                         <p className="description">
                             <Link href="/projects/disaster-recovery-scheduler">
-                                Disaster Recovery Scheduler
+                                <a>Disaster Recovery Scheduler</a>
                             </Link>{" "}
                             - Vue.js, Django
                         </p>
                         <p className="description">
-                            <Link
-                                href="/projects/monitoring-system"
-                                className="colored-text"
-                            >
-                                Monitoring System
+                            <Link href="/projects/monitoring-system">
+                                <a>Monitoring System</a>
                             </Link>{" "}
                             - Vue.js, Django, Node.js
                         </p>
                         <p className="description">
-                            <Link
-                                href="/projects/erp-invoice-importer"
-                                className="colored-text"
-                            >
-                                ERP Invoice Importer
+                            <Link href="/projects/erp-invoice-importer">
+                                <a>ERP Invoice Importer</a>
                             </Link>{" "}
                             - PHP
                         </p>
                         <p className="description">
-                            <Link
-                                href="/projects/uconnected-voip-app"
-                                className="colored-text"
-                            >
-                                uConnected VoIP application
+                            <Link href="/projects/uconnected-voip-app">
+                                <a>uConnected VoIP application</a>
                             </Link>{" "}
                             - React Native, IOS, Android.
                         </p>
+                    </FadeInWhenVisible>
+                </div>
+                <div className="halfContainer">
+                    <FadeInWhenVisible>
+                        <h1 className="content-title">
+                            Lets chat{" "}
+                            <a href="mailto:madhava.diflorio@gmail.com">:)</a>
+                        </h1>
                     </FadeInWhenVisible>
                 </div>
             </div>
