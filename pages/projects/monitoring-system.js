@@ -24,9 +24,7 @@ export default function MonitoringSystem() {
             <BackButton />
             <div className="project-page">
                 <div className="project-container">
-                    <h1 className="content-title">
-                        Disaster Recovery Monitoring System
-                    </h1>
+                    <h1 className="content-title">Monitoring System</h1>
                     <div className="margin-vertical">
                         <ImageGallery
                             items={images}
@@ -39,7 +37,7 @@ export default function MonitoringSystem() {
                         The core service at Nuabee is their Disaster Recovery
                         Plan. This is a complex process which involves taking
                         backups of a company's infrastructure and in the case of
-                        a disaster, replicating it in the cloud. This allows the
+                        a disaster, replicating it in the cloud. This allows a
                         company to have complete confidence that they can
                         continue to provide their services in the case of an
                         emergency.

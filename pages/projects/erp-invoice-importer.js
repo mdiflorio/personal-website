@@ -25,7 +25,7 @@ export default function ErpInvoiceImporter() {
             <BackButton />
             <div className="project-page">
                 <div className="project-container">
-                    <h1 className="content-title">ERP Invoice Importer</h1>
+                    <h1 className="content-title">ERP order importer</h1>
                     <div className="margin-vertical">
                         <ImageGallery
                             items={images}

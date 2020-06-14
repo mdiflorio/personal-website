@@ -53,6 +53,7 @@ export default class Home extends React.Component {
                             <span className="colored-text">DevOps: </span>
                             Docker, Ansible, Gitlab CI
                         </p>
+                        <div style={{ marginTop: "8rem" }} id="projects"></div>
                     </FadeInWhenVisible>
                 </div>
 

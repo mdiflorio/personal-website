@@ -35,16 +35,23 @@ export default function UconnectedVoipApp() {
                             showPlayButton={false}
                         />
                     </div>
-                    <p className="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
+                    <p>
+                        An IOS and Android application built using React native
+                        for uConnected. The app allows the clients of uConnected
+                        to connect and make calls through their VoIP service and
+                        includes various features such as user authentication,
+                        access to the device's contacts list complete with an
+                        alphabetical scroll list, a keypad, and an integration
+                        of uConnected's dashboard.\n\nThe app incorporates a
+                        variety of libraries such as Redux, React Native
+                        Navigation and React Native PJSIP. It contains a range
+                        of animations to ensure the user experience is smooth
+                        and in line with a native user experience.\n\nYou can
+                        visit uConnected's website{" "}
+                        <a target="_blank" href="https://www.uconnected.com.au">
+                            here
+                        </a>
+                        .
                     </p>
                 </div>
             </div>
