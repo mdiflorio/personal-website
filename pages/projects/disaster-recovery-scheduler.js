@@ -5,16 +5,16 @@ import BackButton from "../../components/BackButton";
 
 const images = [
     {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/1000/600/",
+        original: "/images/projects/scheduler/scheduler-1.png",
+        thumbnail: "/images/projects/scheduler/scheduler-1.png",
     },
     {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
+        original: "/images/projects/scheduler/scheduler-2.png",
+        thumbnail: "/images/projects/scheduler/scheduler-2.png",
     },
     {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
+        original: "/images/projects/scheduler/scheduler-3.png",
+        thumbnail: "/images/projects/scheduler/scheduler-3.png",
     },
 ];
 
