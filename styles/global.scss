@@ -52,18 +52,6 @@ a {
     }
 }
 
-.content-title,
-.title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 3.5rem;
-    text-align: left;
-}
-
-.subTitle,
-.description {
-    font-size: 2rem;
-}
 
 .title,
 .subTitle {
@@ -75,12 +63,6 @@ a {
     text-align: left;
 }
 
-.project-page {
-    p {
-        font-size: 1.5rem;
-    }
-
-}
 
 .colored-text {
     color: $ig-blue;
@@ -104,4 +86,53 @@ body {
 
 * {
     box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 601px) {
+
+    .content-title,
+    .title {
+        margin: 0;
+        line-height: 1.15;
+        font-size: 3.5rem;
+        text-align: left;
+    }
+
+
+    .subTitle,
+    .description {
+        font-size: 2rem;
+    }
+
+    .project-page {
+        p {
+            font-size: 1.5rem;
+        }
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .content-title,
+    .title {
+        margin: 0;
+        line-height: 1.15;
+        font-size: 2rem;
+        text-align: left;
+    }
+
+
+    .subTitle,
+    .description {
+        font-size: 1.3rem;
+    }
+
+    .project-page {
+        p {
+            font-size: 1rem;
+        }
+
+    }
 }
