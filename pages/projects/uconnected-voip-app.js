@@ -4,20 +4,14 @@ import Router from "next/router";
 import ImageGallery from "react-image-gallery";
 import BackButton from "../../components/BackButton";
 
-const images = [
-    {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/1000/600/",
-    },
-    {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
-    },
-    {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
-    },
-];
+const imageList = [1, 2, 3, 4, 5, 6, 7];
+
+const images = imageList.map((i) => {
+    return {
+        original: `/images/projects/uconnected/${i}.jpg`,
+        thumbnail: `/images/projects/uconnected/${i}.jpg`,
+    };
+});
 
 export default function UconnectedVoipApp() {
     return (
@@ -56,17 +50,9 @@ export default function UconnectedVoipApp() {
                     <p>
                         A solution to this problem was to develop a VoIP
                         application that allowed you to make outbound calls
-                        through the service. The basis of this application was
-                        on a technology called PJSIP which is an open-source SIP
-                        protocol. The application needed to be functional on
-                        both Android and IOS.
-                    </p>
-                    <h2>Note</h2>
-                    <p>
-                        Even though the application was finished and worked as
-                        intended. The team at uConnected was not satisfied with
-                        the reliability of the PJSIP. Consequently, the
-                        application was never pushed into production.
+                        through uConnected's service. The app was based on a
+                        technology called PJSIP which is an open-source SIP
+                        protocol. The app was required on both Android and IOS.
                     </p>
                     <h2>Technologies</h2>
                     <p>
