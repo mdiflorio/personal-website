@@ -3,20 +3,14 @@ import Link from "next/link";
 import ImageGallery from "react-image-gallery";
 import BackButton from "../../components/BackButton";
 
-const images = [
-    {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/1000/600/",
-    },
-    {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
-    },
-    {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
-    },
-];
+const imageList = [1];
+
+const images = imageList.map((i) => {
+    return {
+        original: `/images/projects/monitoring/${i}.png`,
+        thumbnail: `/images/projects/monitoring/${i}.png`,
+    };
+});
 
 export default function MonitoringSystem() {
     return (

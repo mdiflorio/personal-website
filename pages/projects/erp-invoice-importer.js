@@ -4,20 +4,14 @@ import Router from "next/router";
 import ImageGallery from "react-image-gallery";
 import BackButton from "../../components/BackButton";
 
-const images = [
-    {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/1000/600/",
-    },
-    {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
-    },
-    {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
-    },
-];
+const imageList = [1, 2, 3];
+
+const images = imageList.map((i) => {
+    return {
+        original: `/images/projects/importer/${i}.png`,
+        thumbnail: `/images/projects/importer/${i}.png`,
+    };
+});
 
 export default function ErpInvoiceImporter() {
     return (
