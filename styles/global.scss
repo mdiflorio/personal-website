@@ -120,6 +120,10 @@ body {
 
 @media screen and (max-width: 600px) {
 
+    .page {
+        padding: 2rem;
+    }
+
     .content-title,
     .title {
         margin: 0;
@@ -132,11 +136,16 @@ body {
     .subTitle,
     .description {
         font-size: 1.3rem;
+        font-weight: normal;
     }
 
     .project-page {
+
+        padding: 2rem;
+
         p {
             font-size: 1rem;
+            font-weight: normal;
         }
 
     }
