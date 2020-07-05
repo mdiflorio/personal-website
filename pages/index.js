@@ -88,7 +88,12 @@ export default class Home extends React.Component {
                 </div>
                 <div className="halfContainer">
                     <FadeInWhenVisible>
-                        <h1 className="content-title">Lets chat :)</h1>
+                        <h1
+                            className="content-title"
+                            style={{ marginBottom: "1rem" }}
+                        >
+                            Lets chat :)
+                        </h1>
                         <a
                             className="description"
                             href="mailto:madhava.diflorio@gmail.com"
