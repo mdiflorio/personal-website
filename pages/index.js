@@ -96,7 +96,7 @@ export default class Home extends React.Component {
                         </h1>
                         <a
                             className="description"
-                            href="mailto:madhava.diflorio@gmail.com"
+                            href="mailto:matt.diflorio@gmail.com"
                         >
                             matt.diflorio@gmail.com
                         </a>
