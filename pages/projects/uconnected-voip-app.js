@@ -43,7 +43,7 @@ export default function UconnectedVoipApp() {
                     <h2>Problem</h2>
                     <p>
                         While uConnected has many incredible features, their
-                        customers are unable to make outbound calls using their
+                        customers were unable to make outbound calls using their
                         service.
                     </p>
                     <h2>Solution</h2>
@@ -52,7 +52,8 @@ export default function UconnectedVoipApp() {
                         application that allowed you to make outbound calls
                         through uConnected's service. The app was based on a
                         technology called PJSIP which is an open-source SIP
-                        protocol. The app was required on both Android and IOS.
+                        protocol. The app was developed for both Android and
+                        IOS.
                     </p>
                     <h2>Technologies</h2>
                     <p>

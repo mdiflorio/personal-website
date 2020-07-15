@@ -30,22 +30,22 @@ export default function ErpInvoiceImporter() {
                     <h2>Context</h2>
                     <p>
                         Chaud Devant is a company in the French Alps which makes
-                        ski masks. One of the particularities of the way Chaud
+                        ski masks. One of the peculiarities of the way Chaud
                         Devant works is that they spend the summer searching for
-                        clients at the various ski stations throughout Europe,
-                        it's only once they have a large number of orders do
-                        they start production. This allows them to organise the
-                        materials and the workload efficiently.
+                        clients at the various ski stations throughout Europe.
+                        They only start production once they have a large number
+                        of orders, which allows them to organise the materials
+                        and the workload efficiently.
                     </p>
                     <h2>Problem</h2>
                     <p>
-                        One of the downfalls of the large number of orders is
-                        that it would take the secretary weeks to enter them all
-                        into their ERP. Considering that the orders were already
-                        in Excel format, it was a perfect opportunity to
-                        automate this process. Surprisingly the ERP that they
-                        were using didn't have any third-party modules for
-                        importing orders.
+                        One of problems associated with having a large number of
+                        orders is that it would take the secretary weeks to
+                        enter them all into their ERP. Considering that the
+                        orders were already in Excel format, it was a perfect
+                        opportunity to automate this process. Surprisingly the
+                        ERP that they were using didn't have any third-party
+                        modules for importing orders.
                     </p>
                     <h2>Solution</h2>
                     <p>
@@ -53,8 +53,8 @@ export default function ErpInvoiceImporter() {
                         scratch, which would allow a user to select an Excel
                         file that contained an order and import all of the data
                         into the system. I attempted to imitate the user
-                        interface as much as possible to give a native Dolibarr
-                        look and feel.
+                        interface as much as possible to give it a native
+                        Dolibarr look and feel.
                     </p>
                     <h2>Technologies</h2>
                     <p>

@@ -39,7 +39,7 @@ export default function DisasterRecoveryScheduler() {
                         Nuabee's main service is the Disaster Recovery Plan.
                         This is a highly customised B2B service which allows
                         companies to replicate their infrastructure in the cloud
-                        in the case of an emergency. Seeing as the service is
+                        in the case of an emergency. Given that the service is
                         tailor-made for each company, it demands a high level of
                         testing from both the support staff at Nuabee and the
                         clients.
@@ -47,7 +47,7 @@ export default function DisasterRecoveryScheduler() {
                     <h2>Problem</h2>
                     <p>
                         As the Disaster Recovery Plans can take hours to
-                        complete, we faced a problem where the service was not
+                        complete, we faced a problem because the service was not
                         operational for testing during the hours scheduled with
                         the clients.
                     </p>

@@ -42,8 +42,8 @@ export default function MonitoringSystem() {
                         lack of visibility when launching a Disaster Recovery
                         Plan. We were unable to see where errors were occurring
                         without going into the different virtual machines and
-                        checking the logs manually. We were wasting an enormous
-                        amount of time tracking down bugs and it also made it
+                        checking the logs manually. A great deal of time was
+                        being spent tracking down bugs and it also made it
                         difficult to train new support staff members on how to
                         deal with these issues.
                     </p>
