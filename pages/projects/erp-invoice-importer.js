@@ -21,11 +21,7 @@ export default function ErpInvoiceImporter() {
                 <div className="project-container">
                     <h1 className="content-title">ERP order importer</h1>
                     <div className="margin-vertical">
-                        <ImageGallery
-                            items={images}
-                            showFullscreenButton={false}
-                            showPlayButton={false}
-                        />
+                        <ImageGallery items={images} showPlayButton={false} />
                     </div>
                     <h2>Context</h2>
                     <p>

@@ -23,11 +23,7 @@ export default function UconnectedVoipApp() {
                         uConnected VoIP application
                     </h1>
                     <div className="margin-vertical">
-                        <ImageGallery
-                            items={images}
-                            showFullscreenButton={false}
-                            showPlayButton={false}
-                        />
+                        <ImageGallery items={images} showPlayButton={false} />
                     </div>
                     <h2>Context</h2>
                     <p>
